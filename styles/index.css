@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+*,
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.PageMainContainer {
+  max-width: 1810px;
+  margin: auto;
+}
+
+.CTAContainer{
+  max-width: 980px;
+  margin: auto;
+}
+
+.background-header {
+  background-image: url('/assets/images/header_img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.background-header-page {
+  background-image: url('/assets/images/header_img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.background-cta {
+  background-image: url('/assets/images/cta_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.headerContainer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 500px;
+}
+
+.headerImage {
+  height: 400px;
+  width: 100%;
+}
+
+.careerHeaderBackground {
+  max-height: 700px;
+  width: 100%;
+}
+
+.careerInformationContainer {
+  max-width: 450px;
+}
+
+.careerInformationImage {
+  max-height: 450px; 
+  border-radius: 20px;
+}
+
+.careerInfoBox {
+  width: 176px;
+  height: 64px;
+
+  background-color: #797FB8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.careerInfoBoxSeparator {
+  width: 0px;
+  height: 40px;
+  color: #fff;
+  border: 1px solid #fff;
+};
+
+@media screen and (max-width: 1024px) {
+  .background-header {
+    background-image: url('/assets/images/header_img_mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+  }
+
+  .background-header-page {
+    background-image: url('/assets/images/header_img_mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+  }
+
+  .headerContainer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 750px;
+  }
+}

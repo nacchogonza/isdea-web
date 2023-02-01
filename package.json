@@ -1,0 +1,42 @@
+{
+  "name": "consultorios-sur-frontend-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.7",
+    "@types/nodemailer": "^6.4.4",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.4.2",
+    "next": "12.2.0",
+    "next-sitemap": "^3.1.23",
+    "qs": "^6.11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.0",
+    "react-markdown": "^8.0.3",
+    "sharp": "^0.31.0",
+    "swiper": "^8.3.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "@types/node": "18.0.3",
+    "@types/qs": "^6.9.7",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "@types/uuid": "^9.0.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.7.4"
+  }
+}
